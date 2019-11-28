@@ -25,7 +25,7 @@ SECRET_KEY = '2#v)st2zysd21qzd-xy$*8m!3@#rnyi-e((bx6z_(h5=in3-$7'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://djanoafrica.herokuapp.com/']
 
 
 # Application definition
