@@ -1,1 +1,1 @@
-web: gunicorn membersystem.membersystem.wsgi --log-file -
+web: gunicorn membersystem.wsgi --log-file -
