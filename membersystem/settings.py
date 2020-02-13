@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
 ]
 
 MIDDLEWARE = [
@@ -49,7 +50,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'membersystem.urls'
+ROOT_URLCONF = 'urls'
 
 TEMPLATES = [
     {
@@ -118,9 +119,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = 'static'
 
-STATICFILES_DIR = [os.path.join(BASE_DIR, 'static')]
-
-STATIC_ROOT = "membersystem/static"
-
-AUTH_USER_MODEL  = 'blog.Users'
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, "static"),
+    'staticfile/',
+]

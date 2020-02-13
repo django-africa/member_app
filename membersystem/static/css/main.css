@@ -1,0 +1,14 @@
+@font-face { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-weight: 400;
+    src: url('../font/segoeui.ttf'); 
+} 
+
+h1{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    src: url('../font/seguisb.ttf');
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    src: url('../font/segoeuisl.ttf')
+}
