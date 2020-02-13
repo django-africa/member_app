@@ -50,7 +50,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'urls'
+ROOT_URLCONF = 'membersystem.urls'
 
 TEMPLATES = [
     {
@@ -123,5 +123,4 @@ STATIC_ROOT = 'static'
 
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static"),
-    'staticfile/',
-]
+    ]
