@@ -1,0 +1,47 @@
+/*
+    Flaticon icon font: Flaticon
+    Creation date: 11/02/2019 11:47
+    */
+@font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.05a0e905ff40.eot");
+  src: url("./Flaticon.05a0e905ff40.eot?#iefix") format("embedded-opentype"), url("./Flaticon.0666a52d1f32.woff2") format("woff2"), url("./Flaticon.0bed328f9da6.woff") format("woff"), url("./Flaticon.e6f918d24556.ttf") format("truetype"), url("./Flaticon.0e69e22930ad.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.0e69e22930ad.svg#Flaticon") format("svg"); } }
+
+.fi:before {
+  display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased; }
+
+.flaticon-mexican-taco:before {
+  content: "\f100"; }
+
+.flaticon-house:before {
+  content: "\f101"; }
+
+.flaticon-guitar:before {
+  content: "\f102"; }
+
+.flaticon-gym:before {
+  content: "\f103"; }
+
+.flaticon-shopping-bag:before {
+  content: "\f104"; }
+
+.flaticon-cocktail:before {
+  content: "\f105"; }
